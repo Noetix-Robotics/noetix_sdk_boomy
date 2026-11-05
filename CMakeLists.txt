@@ -29,7 +29,7 @@ elseif(CMAKE_SYSTEM_PROCESSOR MATCHES "(x86_64)|(AMD64)|(^i686)")
         set(DDS_LIB_DIR ${CMAKE_SOURCE_DIR}/dds/x86_64/lib)
 endif()
 
-find_package(onnxruntime REQUIRED)
+#find_package(onnxruntime REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(Threads REQUIRED)
 find_package(pybind11 REQUIRED)
